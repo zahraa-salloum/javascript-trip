@@ -28,7 +28,11 @@ body{
         transform: translateY(4px);
     }
 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width : 70%;
     text-align: center;
-    margin: 50px auto;
+    margin: auto ;
 }
