@@ -19,6 +19,8 @@ body{
     border-radius: 20px 40px 20px 40px;
     box-shadow: 0 5px #999;
     margin-top: 20px;
+    max-width: 500px;
+    min-width: 500px;
 }
 .button:hover {background-color: #f9c9b6}
 
