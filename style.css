@@ -28,7 +28,17 @@ body{
         background-color: rgba(202,108,132,255);
         box-shadow: 0 5px #666666;
         transform: translateY(4px);
-    }
+}
+.grey{
+    background-color: gray;
+
+}
+.grey:hover{
+    background-color: #b1a8a8;
+}
+.grey:active{
+    background-color: gray;
+}
 .container{
     display: flex;
     justify-content: center;
