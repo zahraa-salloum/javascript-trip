@@ -6,7 +6,7 @@ body{
 
 }
 .button {
-    display: block;
+    display: inline-block;
     padding: 15px 25px;
     font-size: 15px;
     cursor: pointer;
@@ -26,4 +26,9 @@ body{
         background-color: rgba(202,108,132,255);
         box-shadow: 0 5px #666666;
         transform: translateY(4px);
+    }
+.container{
+        width : 70%;
+        text-align: center;
+        margin: 50px auto;
     }
