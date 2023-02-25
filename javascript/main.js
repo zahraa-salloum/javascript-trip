@@ -6,3 +6,6 @@ function topFunction() {
  function toForm() {
   window.location.href='form.html';
  }
+ function toMergeSort(){
+  window.location.href='mergesort.html';
+ }
