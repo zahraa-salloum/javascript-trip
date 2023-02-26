@@ -3,7 +3,12 @@ function toMain(){
  }
 function displayMessage() {
     var input_user = document.getElementById("inputIsPalindrome").value;
-    // document.getElementById("messageDisplay").innerHTML = input_user;
+    if(checkIfPalindrome(input_user)){
+        document.getElementById("messageDisplay").innerHTML = "Your string is Palindrome";
+    } else{
+        document.getElementById("messageDisplay").innerHTML = "Your string is not Palindrome";
+    }
+    
 }
 function checkIfPalindrome( str )
 {
