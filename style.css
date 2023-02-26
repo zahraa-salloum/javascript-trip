@@ -87,3 +87,8 @@ body{
     box-shadow: 0 5px #666666;
     transform: translateY(4px);
   }
+
+  img{
+    max-width: 300px;
+
+  }

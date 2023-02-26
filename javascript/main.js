@@ -50,3 +50,18 @@ window.addEventListener('scroll', function (event) {
     alert("You reached button 8, the IP address button")
   }
 }, false);
+
+
+
+var car;
+            
+function init() {
+  car = document.getElementById('image');
+  car.style.position= 'relative'; 
+  car.style.left = '-400px'; 
+}
+function moveRight() {
+  car.style.left = parseInt(car.style.left) + 10 + 'px';
+}
+            
+window.onload = init;
