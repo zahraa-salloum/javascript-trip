@@ -68,3 +68,7 @@ for(var i = 0; i < 10; i++)
 
 alert("Your numbers after applying merge sort are "+message)
 }
+
+function toMain(){
+   window.location.href='main.html';
+}
