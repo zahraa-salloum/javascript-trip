@@ -65,3 +65,13 @@ body{
     letter-spacing: 5px;
     text-shadow: 3px 3px 15px #c5c5c5, -2px 1px 30px #fffdfe;
   }
+  .containerIsPalindrome{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    width : 70%;
+    text-align: center;
+    margin: 20px auto ;
+  }
