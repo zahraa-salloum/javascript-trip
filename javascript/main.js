@@ -12,3 +12,6 @@ function topFunction() {
  function toIsPalindrome(){
   window.location.href='isPalindrome.html';
  }
+function toTestAge(){
+  window.location.href='testAge.html';
+}
