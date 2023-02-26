@@ -49,7 +49,7 @@ body{
     text-align: center;
     margin: auto ;
 }
-.inputIsPalindrome {
+.inputPinkBorder {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -65,7 +65,7 @@ body{
     letter-spacing: 5px;
     text-shadow: 3px 3px 15px #c5c5c5, -2px 1px 30px #fffdfe;
   }
-  .containerIsPalindrome{
+  .containerSecond{
     display: flex;
     justify-content: space-around;
     gap: 10px;
