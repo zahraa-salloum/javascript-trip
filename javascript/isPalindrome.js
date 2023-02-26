@@ -12,15 +12,13 @@ function displayMessage() {
 }
 function checkIfPalindrome( str )
 {
-    for(var i = 0 ; i < (str.length -1)/2 ;i++)
-  {
-        var x = str[i] ;
-        var y = str[str.length -1-i];
-        if( x != y)
-        {
-            return false;
-        }
-  }
+    if(str.length === 1) 
         return true;
+    if(str.length === 2) 
+        return str[0] === str[1];
+    if(str[0] === str.slice(-1)) 
+        return checkIfPalindrome(str.slice(1,-1))
+        
+    return false;
 }
 
