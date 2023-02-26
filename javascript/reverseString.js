@@ -2,7 +2,10 @@ function toMain(){
     window.location.href='main.html';
  }
 
-
+ function displayMessage() {
+    var input_user = document.getElementById("inputString").value;
+    document.getElementById("messageDisplay").innerHTML = "The reversed string is: "+reverseString(input_user);
+ }
 
 function reverseString(str) {
 
