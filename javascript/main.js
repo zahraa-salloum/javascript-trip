@@ -27,6 +27,9 @@ function toIPAddress(){
 function toCurrentLocation(){
   window.location.href='currentLocation.html';
 }
+function toCourse(){
+  window.location.href='course.html';
+}
 
 var alertTriggered = false;
 function isInViewport(element) {
