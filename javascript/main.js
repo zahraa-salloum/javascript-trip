@@ -15,3 +15,6 @@ function topFunction() {
 function toTestAge(){
   window.location.href='testAge.html';
 }
+function toReverseString(){
+  window.location.href='reverseString.html';
+}
