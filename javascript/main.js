@@ -21,3 +21,6 @@ function toReverseString(){
 function toManipulateString(){
   window.location.href='manipulateString.html';
 }
+function toIPAddress(){
+  window.location.href='ipAddress.html';
+}
