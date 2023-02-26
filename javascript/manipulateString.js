@@ -1,7 +1,11 @@
 function toMain(){
     window.location.href='main.html';
  }
-
+function displayMessage() {
+    var input_user = document.getElementById("inputString").value;
+    document.getElementById("messageDisplay").innerHTML = "Your new string is: " + manipulateString(input_user);
+   
+    }
 
  function manipulateString(str) {
     
