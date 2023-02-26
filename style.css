@@ -57,3 +57,11 @@ body{
     border: 2px solid rgba(202,108,132,255);
     border-radius: 4px;
   }
+  .titleIsPalindrome{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 15px #c5c5c5, -2px 1px 30px #fffdfe;
+  }
