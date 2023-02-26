@@ -9,3 +9,6 @@ function topFunction() {
  function toMergeSort(){
   window.location.href='mergesort.html';
  }
+ function toIsPalindrome(){
+  window.location.href='isPalindrome.html';
+ }
