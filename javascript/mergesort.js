@@ -60,8 +60,11 @@ for(var i = 0; i < 10; i++)
   
       return arr;
   }
-  var sorted_arr = sortArray(arr);
-  
+var sorted_arr = sortArray(arr);
+var message = "";
 
+for(var i = 0; i < 10; i++)
+     message += sorted_arr[i]+" "
 
+alert("Your numbers after applying merge sort are "+message)
 }
