@@ -18,3 +18,6 @@ function toTestAge(){
 function toReverseString(){
   window.location.href='reverseString.html';
 }
+function toManipulateString(){
+  window.location.href='manipulateString.html';
+}
