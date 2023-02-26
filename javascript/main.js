@@ -27,3 +27,11 @@ function toIPAddress(){
 function toCurrentLocation(){
   window.location.href='currentLocation.html';
 }
+
+// var waypoint = new Waypoint({
+//   element: document.getElementById('ipBtn'),
+//   handler: function(direction) {
+//     alert('Direction: ' + direction)
+//   },
+//   offset: '75%'
+// })
