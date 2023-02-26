@@ -28,10 +28,25 @@ function toCurrentLocation(){
   window.location.href='currentLocation.html';
 }
 
-// var waypoint = new Waypoint({
-//   element: document.getElementById('ipBtn'),
-//   handler: function(direction) {
-//     alert('Direction: ' + direction)
-//   },
-//   offset: '75%'
-// })
+var alertTriggered = false;
+function isInViewport(element) {
+  var bounding = element.getBoundingClientRect();
+  if (
+      bounding.top >= 0 &&
+      bounding.left >= 0 &&
+      bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+      bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+  ) {
+      return true;
+  } else {
+      alertTriggered = false;
+      return false;
+  }
+}
+
+window.addEventListener('scroll', function (event) {
+  if (isInViewport(document.getElementById('ipBtn')) && !alertTriggered) {
+    alertTriggered = true;
+    alert("You reached button 8, the IP address button")
+  }
+}, false);
