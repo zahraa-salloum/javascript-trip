@@ -24,3 +24,6 @@ function toManipulateString(){
 function toIPAddress(){
   window.location.href='ipAddress.html';
 }
+function toCurrentLocation(){
+  window.location.href='currentLocation.html';
+}
